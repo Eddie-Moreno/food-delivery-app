@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    
     <!-- Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
-
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Kendalls Added Head Tags -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+<!-- <link rel="stylesheet" type="text/css" href="/css/result-light.css"> -->
+<script type="text/javascript" src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- End of Kendalls Added Head Tags -->
   
     <title>Welcome To Gourmade</title>
 </head>
@@ -126,11 +131,115 @@
 <!-- Step by Step Illustration J.M. END -->
 
 
+<!-- Kendalls HTML -->
+<div class="container">
+    <div class="grid">
+      <figure id="" class="effect-zoe">
+        <img src="img/American Food.jpg" alt="img25"/>
+        <figcaption>
+          <h2>American <span>Food</span></h2>
+          <p class="description">Melt In Your Mouth Hamburgers</p>
+        </figcaption>     
+      </figure>
+      <figure class="effect-zoe">
+        <img src="img/Mexican Food.jpg" alt="img26"/>
+        <figcaption>
+          <h2>Mexican <span>Food</span></h2>
+          <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+        </figcaption>     
+      </figure>
+      <figure class="effect-zoe">
+        <img src="img/Italian Food.jpg" alt="img25"/>
+        <figcaption>
+          <h2>Italian <span>Food</span></h2>
+          <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+        </figcaption>     
+      </figure>
+    </div>
+</div>
+<div class="container">
+<div id="hamvid" class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="img/pexels-ron-lach-8879530.mp4" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="container">
+<!-- bootstrap card with row name myCarousel as row 1-->
+<div class="carousel slide" id="myCarousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="col-xs-2">
+                <a href="#"><img src="img/pexels-andres-ayrton-6578834.jpg" class="img-responsive">
+              </a>
+            </div>
+        </div>
+        <div class="item">
+          <div class="col-xs-2">
+              <a href="#"><img src="img/pexels-kindel-media-6868268.jpg" class="img-responsive">
+            </a>
+          </div>
+      </div>
+      <div class="item">
+        <div class="col-xs-2">
+            <a href="#"><img src="img/pexels-mike-jones-9461218.jpg" class="img-responsive">
+          </a>
+        </div>
+    </div>
+    <div class="item">
+      <div class="col-xs-2">
+          <a href="#"><img src="img/pexels-mikhail-nilov-6613051.jpg" class="img-responsive">
+        </a>
+      </div>
+  </div>
+  <div class="item">
+    <div class="col-xs-2">
+        <a href="#"><img src="img/pexels-norma-mortenson-4393655.jpg" class="img-responsive">
+      </a>
+    </div>
+</div>
+<div class="item">
+  <div class="col-xs-2">
+      <a href="#"><img src="img/pexels-norma-mortenson-4393657.jpg" class="img-responsive">
+    </a>
+  </div>
+</div>
+    </div> <a class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev">
+  <i class="glyphicon glyphicon-chevron-left">
+  </i>
+  </a>
+    <a class="right carousel-control" 
+       href="#myCarousel" 
+       data-slide="next">
+      <i class="glyphicon glyphicon-chevron-right">
+      </i>
+  </a>
+
+</div>
+</div>
+
+<!-- End of Kendalls HTML -->
+
+
 
 
    
   
-    
+<!-- JavaScript for adding slider for multiple images shown at once-->
+<script type="text/javascript">
+  $(window).load(function() {
+      $(".carousel .item").each(function() {
+          var i = $(this).next();
+          i.length || (i = $(this).siblings(":first")),
+            i.children(":first-child").clone().appendTo($(this));
+          
+          for (var n = 0; n < 4; n++)(i = i.next()).length ||
+            (i = $(this).siblings(":first")),
+            i.children(":first-child").clone().appendTo($(this))
+      })
+  });
+</script>    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
