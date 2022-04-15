@@ -1,0 +1,35 @@
+    /* Shadow under navbar J.M. */
+    nav {
+      box-shadow: 0 2px 40px 0 rgba(0,0,0,.2);
+    }
+      /* Shadow under navbar J.M END */
+  
+      /* Font size for Menu text on navbar menu pop-up J.M. */
+  #offcanvasNavbarLabel{
+    font-size: 40px;
+      /* Font size for Menu text on navbar menu pop-up J.M. END */
+  }
+      /* pop-up Menu back background color transparent white J.M. */
+  #offcanvasNavbar.offcanvas.offcanvas-end.show{
+    background-color: rgba(255, 255, 255, 0.775);
+  }
+      /* pop-up Menu back background color transparent white J.M. END */
+
+
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column-imagesjm {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row-imagesjm {
+        content: "";
+        clear: both;
+        display: table;
+      } 
