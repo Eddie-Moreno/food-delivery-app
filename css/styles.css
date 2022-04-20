@@ -2,6 +2,10 @@
     nav {
       box-shadow: 0 2px 40px 0 rgba(0,0,0,.2);
     }
+
+    .navbar{
+      position: relative;
+    }
       /* Shadow under navbar J.M END */
   
       /* Font size for Menu text on navbar menu pop-up J.M. */
@@ -11,22 +15,57 @@
   }
       /* pop-up Menu back background color transparent white J.M. */
   #offcanvasNavbar.offcanvas.offcanvas-end.show{
-    background-color: rgba(255, 255, 255, 0.775);
+    background-color: rgba(255, 255, 255, 0.959);
   }
       /* pop-up Menu back background color transparent white J.M. END */
 
+.logo-main{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222222);
+  filter: drop-shadow(5px 15px 10px #0f0f0f);
+}
 
-      
-      * {
-        box-sizing: border-box;
+
+
+      /* .hero-video{
+        width: 110px;
+        height: auto;
+        align-items: center;
+        
+      } */
+
+
+      .carousel-item{
+        width: 100%;
+        height: 1000px;
       }
-      
-      .column-imagesjm {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
+      .carousel-logo{
+        width: 10px;
+        height: 10px;
+        z-index: 5px;
       }
-      
+
+
+/* Illustration step by step parent DIV */
+      .cont-illust {
+        height: 600px;
+        width: auto;
+        background-color: rgb(186, 0, 0);
+      }
+
+/* Step by step illustrations Images sizing */
+      .illust-img{
+        max-height: 240px;
+        max-width: 370px;
+        min-width: ;
+        display: inline block;
+        border-radius: 20px;
+        
+      }
+
+    
       /* Clearfix (clear floats) */
       .row-imagesjm {
         content: "";
@@ -34,9 +73,27 @@
         display: table;
       } 
 
+      .img-fluid{
+        width: fit-content;
+        height: fit-content;
+      }
+
+      .text-illust{
+        inline-size: 220px;
+        overflow-wrap: break-word;
+        margin-right: 0px;
+        margin-left: 120px;
+      }
+
+  /* END  */
+
+
+
+
+
 /* Kendalls CSS */
-.container {
-  background-color: rgba(190, 0, 0, 1);
+.container-kend {
+  background-color: rgb(237, 237, 237);
   border: none !important;
   box-shadow: none !important;
   border-radius: 0px !important;
