@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Stylesheet -->
           <link rel="stylesheet" href="css/styles.css">
-          <link rel="stylesheet" href="/css/main.css">
+          <!-- <link rel="stylesheet" href="/css/main.css"> -->
         <!-- Bootstrap -->
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,10 +14,8 @@
         <!-- Kendalls Added Head Tags -->
           <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
         <!-- <link rel="stylesheet" type="text/css" href="/css/result-light.css"> -->
-          <!-- <script type="text/javascript" src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-          <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-          <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
         <!-- End of Kendalls Added Head Tags -->
+
 
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
         
@@ -170,7 +168,7 @@
 
 
 <!-- Kendalls HTML -->
-<div class="container-kend">
+<div class="bdcontainer">
     <div class="grid">
       <figure id="" class="effect-zoe">
         <img src="img/American Food.jpg" alt="img25"/>
@@ -196,72 +194,14 @@
     </div>
 </div>
 
-<div class="container-kend">
-  <div id="hamvid" class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="img/pexels-ron-lach-8879530.mp4"></iframe>
-  </div>
+<div class="container-k d-flex justify-content-center ">
+<iframe class="PhotoZoom_iframe__LeuQM" allowfullscreen="" frameborder="0" src="//player.vimeo.com/video/578571262?title=0&amp;portrait=0&amp;byline=0&amp;autoplay=1&amp;muted=true" width="1050" height="550"></iframe>
+<br>
+<br>
 </div>
-
-<div class="container-kend">
-<!-- bootstrap card with row name myCarousel as row 1-->
-<!-- <div class="carousel slide" id="myCarousel">
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="col-xs-2">
-                    <a href="#"><img src="img/pexels-andres-ayrton-6578834.jpg" class="img-responsive">
-                  </a>
-                </div>
-            </div>
-            <div class="item">
-              <div class="col-xs-2">
-                  <a href="#"><img src="img/pexels-kindel-media-6868268.jpg" class="img-responsive">
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="col-xs-2">
-                  <a href="#"><img src="img/pexels-mike-jones-9461218.jpg" class="img-responsive">
-                </a>
-              </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-2">
-                    <a href="#"><img src="img/pexels-mikhail-nilov-6613051.jpg" class="img-responsive">
-                  </a>
-                </div>
-            </div>
-            <div class="item">
-              <div class="col-xs-2">
-                  <a href="#"><img src="img/showing box copy.jpg" class="img-responsive">
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="col-xs-2">
-                <a href="#"><img src="img/pexels-norma-mortenson-4393657.jpg" class="img-responsive">
-                </a>
-              </div>
-            </div>
-        </div> 
-        <a class="left carousel-control"
-              href="#myCarousel"
-              data-slide="prev">
-  <i class="glyphicon glyphicon-chevron-left">
-  </i>
-  </a>
-    <a class="right carousel-control" 
-       href="#myCarousel" 
-       data-slide="next">
-      <i class="glyphicon glyphicon-chevron-right">
-      </i>
-  </a>
-
-</div>
-</div> -->
-
 <!-- End of Kendalls HTML -->
 
- <!-- Footer Start -->
+ <!-- Footer Start -Eddie-->
 
  <footer>
   <div class="container-fluid bg-dark d-flex justify-content-center rowFooter">
@@ -279,7 +219,7 @@
       </div>
       <div class="row-md-12">
           <div class="row mini-logo">
-              <a href="#"><img src="/img/GourGoldSm1.png" alt="HTML tutorial"></a>
+              <a href="#"><img src="/img/gourgold.png" alt="HTML tutorial"></a>
           </div>
       </div>
      <div class="row-md-12 align-self-center">
@@ -289,11 +229,7 @@
               <a href="tel:+18885552202" style="color: white;"><br> 1-888-555-2202</a>
           </div>
       </div>
-
      </div>
-
-
-
   </div>
   <div class="containerFooter red-foot">
       <div class="d-flex justify-content-center" style="font-family: Poppins;">
@@ -302,26 +238,10 @@
   </div>
 </footer>
 
-<!-- Footer End -->
+<!-- Footer End -Eddie-->
 
-
-   
-  
-<!-- JavaScript for adding slider for multiple images shown at once-->
-<script type="text/javascript">
-  $(window).load(function() {
-      $(".carousel .item").each(function() {
-          var i = $(this).next();
-          i.length || (i = $(this).siblings(":first")),
-            i.children(":first-child").clone().appendTo($(this));
-          
-          for (var n = 0; n < 4; n++)(i = i.next()).length ||
-            (i = $(this).siblings(":first")),
-            i.children(":first-child").clone().appendTo($(this))
-      })
-  });
-</script>    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
