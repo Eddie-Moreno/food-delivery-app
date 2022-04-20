@@ -35,16 +35,18 @@
       } 
 
 /* Kendalls CSS */
-.container {
+.bdcontainer {
   background-color: rgba(190, 0, 0, 1);
   border: none !important;
   box-shadow: none !important;
   border-radius: 0px !important;
 }
-.hamvid{
-  height: 100px;
+
+.container-k{
+  background-color: rgba(190, 0, 0, 1);
   
 }
+
 .grid {
 margin: 0 auto;
 padding: 1em 0 4em;
@@ -238,6 +240,4 @@ figure.effect-zoe figcaption {
     transition-delay: 0.2s;
   }
   /* End of Kendalls CSS */
-  body {
-    /* background-color: #BE0000 !important; */
-  }
+ 
