@@ -106,12 +106,20 @@
                 <b>4</b>
               </span>
             </h4>
-            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
-            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
-            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
-            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <div>
+              <table class="row" id="shopCartTable">
+                <tr>
+                  <th class="cartItem">Item</th>
+                  <th class="cartStore">Store</th>
+                  <th class="cartPrice">Price</th>
+                  <th class="cartRemove"></th>
+                </tr>
+              </table>
+            </div>
             <hr>
-            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+            <p>Total <span class="price" id="ShopCart" style="color:black">0<b></b></span></p>
+            <button onclick="ResetCounter()">Reset Counter</button>
+            <button onclick="ResetArray()">Reset Array</button>
           </div>
         </div>
       </div>

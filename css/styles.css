@@ -1,25 +1,28 @@
-    /* Shadow under navbar J.M. */
-    nav {
-      box-shadow: 0 2px 40px 0 rgba(0,0,0,.2);
-    }
+/* Shadow under navbar J.M. */
+nav {
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .2);
+}
 
-    .navbar{
-      position: relative;
-    }
-      /* Shadow under navbar J.M END */
-  
-      /* Font size for Menu text on navbar menu pop-up J.M. */
-  #offcanvasNavbarLabel{
-    font-size: 40px;
-      /* Font size for Menu text on navbar menu pop-up J.M. END */
-  }
-      /* pop-up Menu back background color transparent white J.M. */
-  #offcanvasNavbar.offcanvas.offcanvas-end.show{
-    background-color: rgba(255, 255, 255, 0.959);
-  }
-      /* pop-up Menu back background color transparent white J.M. END */
+.navbar {
+  position: relative;
+}
 
-.logo-main{
+/* Shadow under navbar J.M END */
+
+/* Font size for Menu text on navbar menu pop-up J.M. */
+#offcanvasNavbarLabel {
+  font-size: 40px;
+  /* Font size for Menu text on navbar menu pop-up J.M. END */
+}
+
+/* pop-up Menu back background color transparent white J.M. */
+#offcanvasNavbar.offcanvas.offcanvas-end.show {
+  background-color: rgba(255, 255, 255, 0.959);
+}
+
+/* pop-up Menu back background color transparent white J.M. END */
+
+.logo-main {
   position: absolute;
   top: 10px;
   left: 50px;
@@ -29,7 +32,7 @@
 
 
 
-      /* .hero-video{
+/* .hero-video{
         width: 110px;
         height: auto;
         align-items: center;
@@ -37,56 +40,57 @@
       } */
 
 
-      .carousel-item{
-        width: 100%;
-        height: 1000px;
-      }
-      .carousel-logo{
-        width: 10px;
-        height: 10px;
-        z-index: 5px;
-      }
+.carousel-item {
+  width: 100%;
+  height: 1000px;
+}
+
+.carousel-logo {
+  width: 10px;
+  height: 10px;
+  z-index: 5px;
+}
 
 
 /* Illustration step by step parent DIV */
-      .cont-illust {
-        height: 600px;
-        width: auto;
-        background-color: rgb(186, 0, 0);
-      }
+.cont-illust {
+  height: 600px;
+  width: auto;
+  background-color: rgb(186, 0, 0);
+}
 
 /* Step by step illustrations Images sizing */
-      .illust-img{
-        max-height: 240px;
-        max-width: 370px;
-        min-width: ;
-        display: inline block;
-        border-radius: 20px;
-        
-      }
+.illust-img {
+  max-height: 240px;
+  max-width: 370px;
+  /* min-width: ; */
+  display: inline block;
+  border-radius: 20px;
 
-    
-      /* Clearfix (clear floats) */
-      .row-imagesjm {
-        content: "";
-        clear: both;
-        display: table;
-      } 
+}
 
 
-      .img-fluid{
-        width: fit-content;
-        height: fit-content;
-      }
+/* Clearfix (clear floats) */
+.row-imagesjm {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-      .text-illust{
-        inline-size: 220px;
-        overflow-wrap: break-word;
-        margin-right: 0px;
-        margin-left: 120px;
-      }
 
-  /* END  */
+.img-fluid {
+  width: fit-content;
+  height: fit-content;
+}
+
+.text-illust {
+  inline-size: 220px;
+  overflow-wrap: break-word;
+  margin-right: 0px;
+  margin-left: 120px;
+}
+
+/* END  */
 
 
 
@@ -101,7 +105,7 @@
   border-radius: 0px !important;
 }
 
-.container-k{
+.container-k {
   background-color: rgba(190, 0, 0, 1);
 }
 
@@ -302,20 +306,20 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 /* End of Kendalls CSS */
 
-  /* Footer Start Eddie */
+/* Footer Start Eddie */
 
-.rowFooter{
+.rowFooter {
   margin-left: 0px;
   margin-right: 0px;
   display: flex;
   align-items: center;
 }
 
-.containerFooter{
+.containerFooter {
   max-width: 100%;
 }
 
-.icons{
+.icons {
   padding-right: 175px;
 }
 
@@ -330,47 +334,47 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .fa-instagram:before {
-display: inline-block;
-text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
   color: white
 }
 
 .fa-facebook-f:before {
-display: inline-block;
-text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
   color: white
 }
 
 .fa-twitter:before {
-display: inline-block;
-text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
   color: white
 }
 
-.row-md-12 .mini-logo .img{
+.row-md-12 .mini-logo .img {
   max-width: 250px;
   height: auto;
 }
 
-.mini-logo{
+.mini-logo {
   padding-right: 125px;
 }
 
-.cust-srv{
+.cust-srv {
   position: relative;
   width: 250px;
   font-size: 22px;
   /* margin-bottom: 60px; */
 }
 
-.cust{
+.cust {
   text-align: center;
   /* position: absolute; */
   top: 50%;
   width: 100%;
 }
 
-.red-foot{
+.red-foot {
   background-color: #BE0000;
   color: #ccc;
   height: 60px;
@@ -379,11 +383,12 @@ text-decoration: none;
 }
 
 @media (max-width: 900px) {
-  .rowFooter{
+  .rowFooter {
     flex-direction: column-reverse;
     padding-top: 50px;
   }
-  .icons{
+
+  .icons {
     margin: 0 auto;
     padding-left: 130px;
     padding-bottom: 50px;
@@ -396,25 +401,25 @@ text-decoration: none;
 /* Checkout Start Eddie */
 
 .row {
-  display: -ms-flexbox; 
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; 
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; 
+  -ms-flex: 25%;
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; 
+  -ms-flex: 50%;
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; 
+  -ms-flex: 75%;
   flex: 75%;
 }
 
@@ -473,80 +478,104 @@ span.price {
   .row {
     flex-direction: column-reverse;
   }
+
   .col-25 {
     margin-bottom: 20px;
   }
 }
-/* Checkout End */
+  /* Checkout End */
 
-/* Restaurant base layout start -DD */
+  /* Restaurant base layout start -DD */
 
-.rest-Content {
-  overflow: visible;
-  border: 1px black;
-  margin: 0;
-  margin-top: 50px;
-  position: relative;
-}
+  .rest-Content {
+    overflow: visible;
+    border: 1px black;
+    margin: 0;
+    margin-top: 50px;
+    position: relative;
+  }
 
-.restaurantHeader{
-  position: inherit;
-  overflow: auto;
-  max-width: 100%;
-  height: 400px;
-  background-position: center;
-  background-size: 70% 150%;
-  background-repeat: no-repeat;
-  text-align: center;
-}
+  .restaurantHeader {
+    position: inherit;
+    overflow: auto;
+    max-width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: 70% 150%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
 
-/* header image for american food, just change the background image */
-.aFoodBG{
-  background-image: url(/img/American\ Food.jpg);
-}
+  /* header image for american food, just change the background image */
+  .aFoodBG {
+    background-image: url(/img/American\ Food.jpg);
+  }
 
-/* header image for italian food, just change the background image */
-.iFoodBG{
-  background-image: url(/img/Italian\ Food.jpg);
-}
+  /* header image for italian food, just change the background image */
+  .iFoodBG {
+    background-image: url(/img/Italian\ Food.jpg);
+  }
 
-/* header image for mexican food, just change the background image */
-.mFoodBG{
-  background-image: url(/img/Mexican\ Food.jpg);
-}
+  /* header image for mexican food, just change the background image */
+  .mFoodBG {
+    background-image: url(/img/Mexican\ Food.jpg);
+  }
 
-.restNameText{
-  background-color: rgba(150, 150, 150, .7);
-  border-radius: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  box-shadow: 10px -10px 20px rgba(0, 0, 0, 1);
-  text-shadow: 3px -2px 4px rgba(50, 50, 50, 0.5);
-  color: black;
-  font-size: xx-large;
-  top: 94%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  margin: auto;
-}
+  .restNameText {
+    background-color: rgba(150, 150, 150, .7);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 10px -10px 20px rgba(0, 0, 0, 1);
+    text-shadow: 3px -2px 4px rgba(50, 50, 50, 0.5);
+    color: black;
+    font-size: xx-large;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: auto;
+  }
 
-.foodDisplay{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-}
+  .foodDisplay {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
 
-.foodItem{
-  background-color: white;
-  border: 2px solid rgb(0, 0, 0);
-  width: 200px;
-  height: auto;
-  padding: 0p;
-  overflow: hidden;
-}
+  .foodItem {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    height: auto;
+    padding: 0p;
+    overflow: hidden;
+  }
 
-/* Restaurant base layout end -DD */
-
+  .cartItem{
+    width: 30%;
+  }
+  .cartStore{
+    width: 30%;
+  }
+  .cartPrice{
+    width: 10%;
+  }
+  th,
+  td {
+    width: 30%;
+    text-align: start;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+  .btn-minus{
+    max-height: 5px;
+    width: 10px;
+  }
+  /* Restaurant base layout end -DD */
