@@ -38,18 +38,18 @@ nav {
 }
 
 /* Kendalls CSS */
-
-.containerK {
-
+.bdcontainer {
   background-color: rgba(190, 0, 0, 1);
   border: none !important;
   box-shadow: none !important;
   border-radius: 0px !important;
 }
 
+.container-k{
+  background-color: rgba(190, 0, 0, 1);
+  
 .hamvid {
   height: 100px;
-
 }
 
 .grid {
@@ -423,8 +423,6 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
-}
-
 
 /* Checkout End */
 
@@ -498,3 +496,4 @@ span.price {
 }
 
 /* Restaurant base layout end -DD */
+
