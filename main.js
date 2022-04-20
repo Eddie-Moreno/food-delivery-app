@@ -33,11 +33,11 @@ function addToCart(buttonData){
     //// Grab all the button values and store them to their own variables
     let itemCost = buttonData.value;
     let itemLocal = buttonData.dataset.page;
-    let itemVegan = buttonData.dataset.vegan;
+    let itemFood = buttonData.dataset.menuitem;
     //// Instantiate the array, grab the local storage and set the values to an array
     let cartArray = [];
     let cartArrayStore = localStorage.getObj("cartList");
-    let storeItems = [{'price': itemCost, 'pLocal': itemLocal, 'veganOption': itemVegan}];
+    let storeItems = [{'price': itemCost, 'pLocal': itemLocal, 'menuFood': itemFood}];
     //// Push the button data to the array
     cartArray.push(storeItems[0]);
     //// Add the button data to the string from localstorage
@@ -71,10 +71,10 @@ function ShowCart(){
     for(let i = 0; i < getCart.length; i++){
 
         shopRow = "<tr class='shopTable'>";
-        shopRow += "<td>" + getCart[i].price + "</td>";
+        shopRow += "<td class='td'>" + getCart[i].menuFood + "</td>";
         shopRow += "<td>" + getCart[i].pLocal + "</td>";
-        shopRow += "<td>" + getCart[i].veganOption + "</td>";
-        shopRow += "<td>" + "<button type='button' class='btn btn-danger glyphicon glyphicon-minus' data-arrValue=" + [i] +" onClick='(removeFromCart(this))'>" + "<td></tr>";
+        shopRow += "<td>" + getCart[i].price + "</td>";
+        shopRow += "<td>" + "<button type='button' class='btn btn-danger glyphicon glyphicon-minus btn-minus' data-arrValue=" + [i] +" onClick='(removeFromCart(this))'>-</button>" + "<td></tr>";
         //// For each item in the array add to the HTML
         text.innerHTML += shopRow;
     }
