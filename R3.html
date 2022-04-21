@@ -1,64 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f8e385da9b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/main.css">
-    <script src="/main.js" defer></script>
-    <title>Welcome To Gourmade</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Stylesheet -->
+          <link rel="stylesheet" href="css/styles.css">
+          <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <!-- Bootstrap -->
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Kendalls Added Head Tags -->
+          <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f8e385da9b.js" crossorigin="anonymous"></script>
+        <script src="/main.js" defer></script>
+      
+        <title>Welcome To Gourmade</title>
+    </head>
 <body>
-
-    <!-- Footer Start -->
-
-    <footer>
-        <div class="container-fluid bg-dark d-flex justify-content-center row">
-            <div class="row row-md-12 align-self-center icons">
-                <div class="col">
-                    <a href="https://www.instagram.com/" class="fa-brands fa-instagram"></a>
-                </div>
-                <div class="col">
-                    <a href="https://www.facebook.com/" class="fa-brands fa-facebook-f"></a>
-                </div>
-                <div class="col">
-                    <a href="https://twitter.com/?lang=en" class="fa-brands fa-twitter"></a>
-                </div>
-
+  <!-- Navbar -->
+  <div class="container-fluid">
+    <!-- NAVBAR BEGIN J.M -->
+    <div class="row">
+      <nav class="navbar navbar-light bg-transparent fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Test 2</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
             </div>
-            <div class="row-md-12">
-                <div class="row mini-logo">
-                    <a href="#"><img src="/img/GourGoldSm1.png" alt="HTML tutorial"></a>
-                </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
-           <div class="row-md-12 align-self-center">
-            <div class="row cust-srv text-white">
-                <div class="cust" style="font-family: Poppins;">
-                    Customer Service:
-                    <a href="tel:+18885552202" style="color: white;"><br> 1-888-555-2202</a>
-                </div>
-            </div>
-
-           </div>
-
-
-
+          </div>
         </div>
-        <div class="container red-foot">
-            <div class="d-flex justify-content-center" style="font-family: Poppins;">
-            &copy; 2022 Gourmade
+      </nav>
+    </div>
+  </div>
+  <!-- Navbar END J.M -->
+  <!-- TEST REMOVE AFTER FIXING TOTALS -->
+  <span class="price" id="ShopCart" style="color:black">0<b></b></span>
+  <!-- TEST REMOVE AFTER FIXING TOTALS -->
+  <br>
+  <!-- Begin Restaurant Info -->
+  <div class="container-fluid italy-bg" >
+    <div class="rest-Content">
+      <div class="restaurantHeader iFoodBG">
+        <span class="restNameText" style="font-family: Poppins;">The Parmesan Don's</span>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="foodDisplay">
+        <div class="foodItem col col-md-2 col-sm-12">
+          <div class="card">
+            <img src="https://www.savorynothings.com/wp-content/uploads/2019/05/italian-meatballs-image-sq.jpg" alt="">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Sketti & MeatBallz</h5>
+              <br>
+              <p class="card-text">SUM'BADE TOUCHA MY SPAGHET!</p>
+              <button href="#" class="btn btn-success" onclick="addToCart(this)" value="10" data-page="The Parmesan Don's" data-menuitem="spaghetti-meatballs">$10</button>
+            </div>
+          </div>
+        </div>
+        <div class="foodItem col col-md-2 col-sm-12">
+          <div class="card">
+            <img src="https://www.jessicagavin.com/wp-content/uploads/2017/07/meat-lasagna-1200.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Lasagna</h5>
+              <br>              
+              <p class="card-text">When the lasagna content in my blood gets low, I get mean! 
+              ~ Garfield</p>
+              <button href="#" class="btn btn-danger" onclick="addToCart(this)" value="8" data-page="The Parmesan Don's" data-menuitem="lasagna">$8</button>
+            </div>
+          </div>
+        </div>
+        <div class="foodItem col col-md-2 col-sm-12">
+          <div class="card">
+            <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title"> Whole Wheat Parmesan Veggie Pizza</h5>
+              <br>
+              <p class="card-text">Well, pizza has tomatoes, doesn’t that count as veggies?
+              </p>
+              <button href="#" class="btn btn-success" onclick="addToCart(this)" value="25" data-page="The Parmesan Don's" data-menuitem="parmesan-cheese-pizza">$25</button>
+            </div>
+          </div>
+        </div>
+        <div class="foodItem col col-md-2 col-sm-12">
+          <div class="card">
+            <img src="https://valentinascorner.com/wp-content/uploads/2020/03/Chicken-Mushroom-Fettuccine-Alfredo-14.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Fettuccine Chicken Alfredo</h5>
+              <br>
+              <p class="card-text">I mean... it's just Fettuccine Chicken Alfredo .... so... yeah</p>
+              <button href="#" class="btn btn-danger" onclick="addToCart(this)" value="11" data-page="The Parmesan Don's" data-menuitem="fettuccine-chicken-alfredo">$11</button>
+            </div>
+          </div>
+        </div>
+        <div class="foodItem col col-md-2 col-sm-12">
+          <div class="card">
+            <img src="https://www.thereciperebel.com/wp-content/uploads/2021/10/bsked-ravioli-new-www.thereciperebel.com-1200-38-of-47.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Ravioli</h5>
+              <br>
+              <p class="card-text">Ravioli, ravioli, gimme the formuoli.</p>
+              <button href="#" class="btn btn-success" onclick="addToCart(this)" value="15" data-page="The Parmesan Don's" data-menuitem="ravioli">$15</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+    </div>
+  </div>
+  <!-- End Restaurant Info -->
+  <br>
+ <!-- Footer Start -Eddie-->
+
+<footer>
+    <div class="container-fluid bg-dark d-flex justify-content-center rowFooter">
+        <div class="rowFooter row-md-12 align-self-center icons">
+            <div class="col">
+                <a href="https://www.instagram.com/" class="fa-brands fa-instagram"></a>
+            </div>
+            <div class="col">
+                <a href="https://www.facebook.com/" class="fa-brands fa-facebook-f"></a>
+            </div>
+            <div class="col">
+                <a href="https://twitter.com/?lang=en" class="fa-brands fa-twitter"></a>
+            </div>
+  
+        </div>
+        <div class="row-md-12">
+            <div class="row mini-logo">
+                <a href="#"><img src="/img/gourgold.png" alt="HTML tutorial"></a>
             </div>
         </div>
-    </footer>
+       <div class="row-md-12 align-self-center">
+        <div class="row cust-srv text-white">
+            <div class="cust" style="font-family: Poppins;">
+                Customer Service:
+                <a href="tel:+18885552202" style="color: white;"><br> 1-888-555-2202</a>
+            </div>
+        </div>
+  
+       </div>
+  
+  
+  
+    </div>
+    <div class="containerFooter red-foot">
+        <div class="d-flex justify-content-center" style="font-family: Poppins;">
+        &copy; 2022 Gourmade
+        </div>
+    </div>
+  </footer>
+  
+  <!-- Footer End -Eddie-->
+  
 
-    <!-- Footer End -->
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
-</html> 
+
+</html>
+
