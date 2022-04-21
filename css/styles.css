@@ -97,6 +97,13 @@ nav {
 
 
 /* Kendalls CSS */
+.italy-bg{
+  color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(110deg, rgb(5, 92, 0) 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, #ffffffc7 66%, #c00000 66%);
+    background: -o-linear-gradient(110deg, rgb(5, 92, 0) 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, #ffffffc7 66%, #c00000 66%);
+    background: -moz-linear-gradient(110deg, rgb(5, 92, 0) 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, #ffffffc7 66%, #c00000 66%);
+    background: linear-gradient(110deg, rgb(5, 92, 0) 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #ffffffc7 66%, #c00000 66%);
+}
 
 .bdcontainer {
   background-color: rgba(190, 0, 0, 1);
@@ -513,7 +520,7 @@ span.price {
 
   /* header image for italian food, just change the background image */
   .iFoodBG {
-    background-image: url(/img/Italian\ Food.jpg);
+    background-image: url(https://www.ciaopittsburgh.com/wp-content/uploads/2013/01/italian-food.png);
   }
 
   /* header image for mexican food, just change the background image */
