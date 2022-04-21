@@ -495,11 +495,7 @@ span.price {
 
 
   /* Restaurant base layout start -DD */
-
-/* header image for american food, just change the background image */
-.aFoodBG{
-  background-image: url(../img/American\ Food.jpg);
-}
+  
   .rest-Content {
     overflow: visible;
     border: 1px black;
