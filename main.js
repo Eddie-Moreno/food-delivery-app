@@ -16,6 +16,7 @@ let shopCartArray = localStorage.getObj("cartList");
 //// Checks if shopping cart is null
 if (shopCartArray != null){
     ShowCart();
+    updateCartAmount();
 }
 
 function ResetCounter(){
@@ -78,6 +79,8 @@ function ShowCart(){
         //// For each item in the array add to the HTML
         text.innerHTML += shopRow;
     }
+
+    // setTimeout(function() { location.reload() },5000)
 }
 
 function removeFromCart(arrItem){
@@ -94,4 +97,19 @@ function removeFromCart(arrItem){
     document.getElementById("ShopCart").innerText = localStorage.getItem("gTotal");
     location.reload();
 
+}
+
+function updateCartAmount(){
+    let cartNumber = localStorage.getObj("cartList");
+    document.getElementById("cartAmount").innerText = cartNumber.length - 1;
+}
+
+function Checkout(){
+    let randomWait;
+    let min = 10;
+    let max = 60;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    randomWait = Math.floor(Math.random() * (max - min + 1)) + min;
+    alert("Thank you for ordering with Gourmade. \n\nYour order is being prepared and will be ready in:\n" + randomWait + " minutes. \n\nEnjoy!");
 }

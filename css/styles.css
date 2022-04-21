@@ -605,3 +605,14 @@ span.price {
     width: 10px;
   }
   /* Restaurant base layout end -DD */
+
+
+  /* Dustins additions */
+  
+  .navbar-toggler{
+    border-color: rgba(0, 0, 0, .5) !important; 
+    background-color: rgba(200, 200, 200, .4) !important; 
+  }
+  .description{
+    text-shadow: 1px 1px 1px rgba(50, 50, 50, 1), -2px -2px 2px rgba(0, 0, 0, .5);
+  }

@@ -29,14 +29,14 @@
     <!-- Checkout Start -->
     <div>
       <div class="text-center">
-        <a href="#"><img src="/img/gourtransparent.png" class="rounded" style="height: 350px;" alt="the logo here"></a>
+        <a href="main.html"><img src="/img/gourtransparent.png" class="rounded" style="height: 350px;" alt="the logo here"></a>
       </div>
     </div>
 
     <div class="row">
         <div class="col-75">
           <div class="container container-ck">
-            <form action="/action_page.php">
+            <form >
 
               <div class="row">
                 <div class="col-50">
@@ -93,7 +93,7 @@
               <label>
                 <input type="checkbox" checked="checked" name="sameadr"> Delivery address same as billing
               </label>
-              <input type="submit" value="Submit Order" class="btn" onclick="myFunction()">
+              <button type="submit" value="Submit Order" class="btn btn-danger" onclick="Checkout()">Checkout</button>
             </form>
           </div>
         </div>
@@ -103,7 +103,7 @@
             <h4 style="font-family: Poppins; color: #BE0000;">Cart
               <span class="price" style="color:black">
                 <i class="fa fa-shopping-cart"></i>
-                <b>4</b>
+                <b id="cartAmount">0</b>
               </span>
             </h4>
             <div>
