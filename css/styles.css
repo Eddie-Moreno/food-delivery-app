@@ -99,13 +99,11 @@
   border: none !important;
   box-shadow: none !important;
   border-radius: 0px !important;
+  height: 800px;
 }
 
 .container-k{
-  background-color: rgba(190, 0, 0, 1);
-  
-.hamvid {
-  height: 100px;
+  background-color: rgb(249, 249, 249);
 }
 
 .grid {
@@ -116,6 +114,7 @@
   text-align: center;
   align-content: flex-start;
   display: inline-flex;
+  height: 400px;
 }
 
 /* Common style */
@@ -479,6 +478,7 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+}
 
 /* Checkout End */
 
@@ -505,7 +505,7 @@ span.price {
 
 /* header image for american food, just change the background image */
 .aFoodBG{
-  background-image: url(/img/American\ Food.jpg);
+  background-image: url(../img/American\ Food.jpg);
 }
 
 /* header image for italian food, just change the background image */
@@ -515,7 +515,7 @@ span.price {
 
 /* header image for mexican food, just change the background image */
 .mFoodBG{
-  background-image: url(/img/Mexican\ Food.jpg);
+  background-image: url(/img/papel\ Food.png);
 }
 
 .restNameText{
@@ -553,3 +553,20 @@ span.price {
 
 /* Restaurant base layout end -DD */
 
+
+
+/* R2 Mexican Restaurant BEGIN J.M */
+.bg-papel-img{
+  height: 200px;
+  width: 100%;
+}
+
+.menu-font-r2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+}
+
+.food-div-r2{
+  
+}
+/* R2 Mexican restauran END J.M */
